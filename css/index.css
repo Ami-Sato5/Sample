@@ -19,11 +19,14 @@ div.box1{
     height: 100px;
     width: 100px;
     background-color: royalblue;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
 }
 div.box2{
     height: 100px;
     width: 100px;
     background-color: mediumaquamarine;
+    text-align: center;
 }
 div.box3{
     height: 100px;
