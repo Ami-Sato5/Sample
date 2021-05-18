@@ -6,13 +6,32 @@
         <title>自己PRサイト</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
         <style type="text/css">
+
+        link{
+            margin: 50px;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        nav{
+            position: fixed;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+
+       li{
+           list-style-type: none;
+           padding: 10px;
+           margin: 10px;
+       }
         body{
             padding: 0;
-            margin: 0;
+            margin: 50;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             background-color: #f4eee8;
              }
-            
         #main{
             background-color: #f4eee8;
             width: 100%;
@@ -37,6 +56,7 @@
             min-height: 100%;
             z-index: 1;
             box-sizing: border-box;
+            font-size: 30px;
             
         }
         #open{
@@ -73,7 +93,11 @@
         </style>
     </head>
     <body>
-       
+        <nav><a href="#about"></a><a href="#work"></a></nav>
+        <ul>
+            <a id="about">about</a>
+            <a id="work">work</a>
+        </ul>
         <div id="menu">
             <ul>
                 <li>about </li>
